@@ -1,11 +1,9 @@
-/*			Parse WAIS Source file			HTWSRC.c
-**			======================
-**
-**	This module parses a stream with WAIS source file
-**	format information on it and creates a structured stream.
-**	That structured stream is then converted into whatever.
-**
-**	3 June 93	Bug fix: Won't crash if no description
+Parse WAIS Source file
+isa_HTWSRC.c
+======================
+This module parses a stream with WAIS source filformat information on it and creates a structured stream.
+That structured stream is then converted into whatever.
+3 June 94 Bug fix: Won't crash if no description
 */
 
 #include <HTUtils.h>
@@ -27,7 +25,7 @@
 struct _HTStructured {
 	CONST HTStructuredClass *	isa;
 	/* ... */
-};
+};i
 
 #define PUTC(c) (*me->target->isa->put_character)(me->target, c)
 #define PUTS(s) (*me->target->isa->put_string)(me->target, s)
