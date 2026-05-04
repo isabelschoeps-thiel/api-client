@@ -1,4 +1,6 @@
-# Swagger Codegen
+# API Developer
+## The Yellow Whitepaper - by Isabel Schöps geb. Thiel 
+### Dokumentation Swagger Codegen
 ![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)
 
 This is the Swagger Codegen project, which allows generation of API client libraries (SDK generation), server stubs and documentation on SIA Security Intelligence Artefact, The Yellow Whitepaper. 
